@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://www.etsy.com/",
+  "watchForFileChanges": false,
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "chromeWebSecurity": false,
+  "video": false,
+  "screenshotOnRunFailure": false
+}

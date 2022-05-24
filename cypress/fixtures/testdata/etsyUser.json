@@ -1,0 +1,14 @@
+{
+    "email1": "abc_def@gmail.com",
+    "password1": "123456",
+    "email2": "abc_def@gmail.com",
+    "password2": "123456",
+    "email3": "abc_def@gmail.com",
+    "password3": "123456",
+    "email4": "abc_def@gmail.com",
+    "password4": "123456",
+    "emailErrorBlank":"Email can't be blank.",
+    "passwordErrorBlank":"Password can't be blank",
+    "EmailInvaildError":"Username is invalid",
+    "passwordIncorrect":"Password was incorrect"
+}
