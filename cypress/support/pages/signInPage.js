@@ -7,12 +7,12 @@ export class SignInPage{
         password=()=>cy.get('#join_neu_password_field');
         passwordMsg=()=>cy.get('#aria-join_neu_password_field-error');
         staySignIn=()=>cy.get('#persisent');
-        forgetYourPassword=()=>cy.get('[xpath="//form/div[1]/div/div[6]/div[2]/a"]');
+        // forgetYourPassword=()=>cy.get('[xpath="//form/div[1]/div/div[6]/div[2]/a"]');
         signIn=()=>cy.get('.wt-validation > .wt-btn');
-        troubleSignIn=()=>cy.get('[xpath="//form/div[1]/div/p/a"]');
+        // troubleSignIn=()=>cy.get('[xpath="//form/div[1]/div/p/a"]');
         contWithGoogle=()=>cy.get('[data-login-with-google=""] > .wt-btn');
-        contWithFB=()=>cy.get('[xpath="//form/div[3]/div[2]/div/button"]');
-        contWithApple=()=>cy.get('[xpath="//form/div[3]/div[3]/a"]')
+        // contWithFB=()=>cy.get('[xpath="//form/div[3]/div[2]/div/button"]');
+        // contWithApple=()=>cy.get('[xpath="//form/div[3]/div[3]/a"]')
       
 
 

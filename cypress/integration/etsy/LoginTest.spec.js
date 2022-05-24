@@ -42,10 +42,13 @@ describe('Test Suite', function () {
 
     homepage.signBtn().click();
     signIn.contWithGoogle().click();
-    googleEmail.email().type(etsyData.emai2);
-    googleEmail.nextBtn().click();
-
-
+  //   cy.window().then(function(p)
+  // {
+  //     cy.stub(p, "Sign in").returns("Etsy");
+  //     cy.get('#identifierId').type(etsyDate.email2);
+  //  });
+    // googleEmail.email().type(etsyData.email2);
+    // googleEmail.nextBtn().click();
   })
   it.skip('Q4. login into the site with different users using a Data Driven Framework (At least 3) the assertions must validate the successful login..', function () {
 
@@ -71,15 +74,17 @@ describe('Test Suite', function () {
 
 
   })
-  it('QCreate an automated script to add / edit / delete a product to cart and the assertion must validate the product is in the cart.', function () {
+  it.skip('Q6.Create an automated script to add / edit / delete a product to cart and the assertion must validate the product is in the cart.', function () {
 
     homepage.signBtn().click();
     signIn.email().type('abc_def@gmail.com');
     signIn.password().type('123456');
     signIn.signIn().click();
-    cy.wait(4000);
-   cy.validateText('Welcome to Etsy, abc!');
+    cy.wait(10000);
+  //  cy.validateText('Welcome to Etsy, abc!');
     homepage.wallDecorBtn().click();
    homepage.shopThisItem().click();
+   homepage.addToBasket().click();
+   homepage.removeBtn().click();
   })
 })
